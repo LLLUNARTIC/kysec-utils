@@ -4,11 +4,15 @@
   "author": "LUNARTIC",
   "description": "This is the package of kysec frontend project.",
   "type": "module",
+  "main": "lib/index-es.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LLLUNARTIC/kysec-utils.git"
+  },
   "scripts": {
     "dev": "rollup -c"
   },
-  "main": "lib/index-es.js",
-  "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^20.0.0",
